@@ -1,0 +1,5 @@
+---
+- name: Run the RHEL 8 STIG
+  hosts: all
+  roles:
+          - redhatofficial.rhel8_stig
