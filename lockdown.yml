@@ -3,3 +3,9 @@
   hosts: all
   roles:
           - redhatofficial.rhel8_stig
+
+  tasks:
+    - name: Update all the packages as well
+      yum:
+        name: "*"
+        state: latest
