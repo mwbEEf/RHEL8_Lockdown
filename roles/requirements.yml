@@ -2,5 +2,5 @@
 roles:
   # Ansible RHEL 8 role from Ansible Galaxy
   - name: redhatofficial.rhel8_stig
-    version: latest
-    source:  https://galaxy.ansible.com
+    version: master
+    src:  https://galaxy.ansible.com
