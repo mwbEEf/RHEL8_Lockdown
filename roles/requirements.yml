@@ -3,4 +3,4 @@ roles:
   # Ansible RHEL 8 role from Ansible Galaxy
   - name: redhatofficial.rhel8_stig
     version: master
-    src:  https://galaxy.ansible.com
+    src:  https://github.com/RedHatOfficial/ansible-role-rhel8-stig
