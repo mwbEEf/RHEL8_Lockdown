@@ -2,10 +2,11 @@
 - name: Run the RHEL 8 STIG
   hosts: all
   roles:
-          - redhatofficial.rhel8_stig
+    - name: redhatofficial.rhel8_stig
+      ignore_errors: True
 
   tasks:
-    - name: Update all the packages as well
+    - name: Update all the packages to the latest
       yum:
         name: "*"
         state: latest
