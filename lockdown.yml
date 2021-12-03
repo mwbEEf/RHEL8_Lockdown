@@ -3,6 +3,7 @@
   hosts: all
   roles:
     - name: redhatofficial.rhel8_stig
+      sudo_remove_nopasswd: False
       ignore_errors: True
 
   tasks:
